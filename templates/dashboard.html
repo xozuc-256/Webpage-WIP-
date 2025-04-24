@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+
+    <h2>Welcome, {{ user }}!</h2>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <p>This is your dashboard. Only accessible after login.</p>
+
+</body>
+</html>
